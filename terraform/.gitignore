@@ -1,0 +1,16 @@
+# Terraform state (use remote backend in production)
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# Variable files with secrets
+terraform.tfvars
+*.auto.tfvars
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Plan files
+*.tfplan
